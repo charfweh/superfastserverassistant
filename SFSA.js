@@ -2,6 +2,7 @@ const discord = require('../backup/node_modules/discord.js')
 const bot = new discord.Client({disableEveryone:false});
 const configfile = require('./configs.json')
 const prefix = configfile.prefix;
+const token = configfile.token;
 const fs = require('fs');
 //reading all necessary files
 bot.commands = new discord.Collection();
@@ -19,13 +20,13 @@ fs.readdir("./cmds/",(err,file)=>{
 
 bot.on('ready', function(){
     console.log(`Logged in as ${bot.user.tag}`);
-    bot.user.setActivity(`Creating guilds with ${prefix}`);
+    bot.user.setActivity(`KeyboardGang`);
     
 });
 
 bot.on('guildCreate',function(guild){
     console.log(`joined guild ${guild.name} at ${guild.joinedAt}`);
-    guild.systemChannel.send("Thanks for letting me in, you can try me out using ``g!help``")
+    guild.owner.send("Thanks for letting me in, you can try me out using ``g!help``")
 });
 bot.on('message', async message=>{
     if(message.author == bot.user) return;
@@ -52,4 +53,4 @@ bot.on('message', async message=>{
             }
     }
 });
-bot.login(configfile.token);
+bot.login(token);
