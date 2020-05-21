@@ -5,12 +5,12 @@ Create roles, channels, categories superflippingfast with me
 ##### Commands under dev
 
 - [x] cvc - create voice channels
-- [ ] dvc - del vc
 - [x] cc - create channels
-- [ ] dc -  del chnls
 - [x] ccat - create categories
-- [ ] dcat - del cats(oh no)
 - [x] cr - create roles
+- [ ] dvc - del vc
+- [ ] dc -  del chnls
+- [ ] dcat - del cats(oh no)
 - [ ] dr -   del roles
 <br>ah yes another thing, got bored deleting channel one by one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
 #### #KeyboardGangRiseUp
