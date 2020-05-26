@@ -15,9 +15,8 @@ Create roles, channels, categories superflippingfast with me
 <br>ah yes another thing, got bored deleting channel one by one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
 
 #### Screenshots
-![CreateChannel](ss/cc.png)
-
 ``g.dc [argshere]``- Takes in 5 argument which are the channel names and delete them, if there're multiple channels with same name specifying one argument as the channel name will delete all the channels under the same name (hah got ya spammers)
+<img src = "./ss/cc.png" alt = "CreateChannel">
 ``g.cc [argshere]``- Takes in 5 argument which are the channel names and creates them, no duplicate channels are allowed, in-case so, that argument wont be processe
 
 ![DeleteChannel](ss/ccmain.png)
