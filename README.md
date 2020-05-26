@@ -13,4 +13,7 @@ Create roles, channels, categories superflippingfast with me
 - [ ] dcat - del cats(oh no)
 - [ ] dr -   del roles
 <br>ah yes another thing, got bored deleting channel one by one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
+
+#### Screenshots
+![CreateChannel](/home/transientbloke/Downloads/cc.png)
 #### #KeyboardGangRiseUp
