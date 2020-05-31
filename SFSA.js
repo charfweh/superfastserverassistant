@@ -21,7 +21,7 @@ fs.readdir("./cmds/",(err,file)=>{
 bot.on('ready', function(){
     console.log(`Logged in as ${bot.user.tag}`);
     bot.user.setActivity(`KeyboardGang`);
-    
+
 });
 
 bot.on('guildCreate',function(guild){
@@ -38,6 +38,10 @@ bot.on('message', async message=>{
         try{
             if(cmdrun.help.name == 'help'){
                 cmdrun.run(bot,message,args);
+            }
+            if(cmdrun.help.name == 'cr' || cmdrun.help.name == 'dr'){
+                let r_args = message.content.slice(prefix.length).trim().split(',')
+                cmdrun.run(bot,message,r_args)
             }
             else{
                 if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
