@@ -30,5 +30,5 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 
 - ``g.invite``- invite link for bot
 #### Screenshots
-![Delete Channel](./ss/cc.png)
+![Delete Channel](https://media.discordapp.net/attachments/716902525374038027/716902604327878696/dc.png?width=386&height=138)
 #### #KeyboardGangRiseUp
