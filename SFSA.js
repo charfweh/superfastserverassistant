@@ -43,7 +43,7 @@ bot.on('message', async message=>{
                 let r_args = message.content.slice(prefix.length).trim().split(',')
                 cmdrun.run(bot,message,r_args)
             }
-            if(cmdrun.help.name =='ccat'){
+            if(cmdrun.help.name =='ccat' || cmdrun.help.name == 'dcat'){
               let c_args = message.content.slice(prefix.length).trim().split(',')
               cmdrun.run(bot,message,c_args)
             }
