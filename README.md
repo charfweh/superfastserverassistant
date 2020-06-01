@@ -36,7 +36,9 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 - Create Channel <br>
 ![Create Channel](https://media.discordapp.net/attachments/716902525374038027/716903765990703184/Screenshot_from_2020-06-01_12-09-09.png?width=394&height=205)
 
-- -Create Category<br>
+- Create Category<br>
 ![create category](https://media.discordapp.net/attachments/716902525374038027/716905367442817054/Screenshot_from_2020-06-01_12-15-43.png?width=399&height=204)
 
+- Delete Category <br>
+![delete category](https://media.discordapp.net/attachments/716902525374038027/716906756034265108/Screenshot_from_2020-06-01_12-21-17.png?width=399&height=245)
 #### #KeyboardGangRiseUp
