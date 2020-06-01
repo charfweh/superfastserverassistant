@@ -18,7 +18,7 @@ module.exports.run = async (bot,message,args)=>{
           await uniarr.forEach((item, i) => {
               let role = message.guild.roles.find(r=>r.name == item)
               if(role){
-                message.channel.send("Cannot create duplicate roles, "+role+" already exists")
+                message.channel.send("Cannot create duplicate roles, **"+role+"** already exists")
               }
               if(!role){
                 message.guild.createRole({

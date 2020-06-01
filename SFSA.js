@@ -43,6 +43,10 @@ bot.on('message', async message=>{
                 let r_args = message.content.slice(prefix.length).trim().split(',')
                 cmdrun.run(bot,message,r_args)
             }
+            if(cmdrun.help.name =='ccat'){
+              let c_args = message.content.slice(prefix.length).trim().split(',')
+              cmdrun.run(bot,message,c_args)
+            }
             else{
                 if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
                         cmdrun.run(bot,message,args);
