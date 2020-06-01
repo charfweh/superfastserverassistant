@@ -29,4 +29,6 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 - ``g.dcat [argshere]``-Takes in 5 argument which are the categories names and delete them, be sure to split argument with separator ``,``(comma) like for eg: ``g.dcat read me, annoucement``
 
 - ``g.invite``- invite link for bot
+#### Screenshots
+![Delete Channel](./ss/cc.png)
 #### #KeyboardGangRiseUp
