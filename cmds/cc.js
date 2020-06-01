@@ -9,12 +9,21 @@ module.exports.run = async (bot,message,args)=>{
             }
         }
         console.log(uniarr)
-        uniarr.forEach(c=>{
-            message.guild.createChannel(c,'text').then(message.channel.send("Channel created!"))
-        })
-        
+        uniarr.forEach((item, i) => {
+          try {
+            let channel = message.guild.channels.find(c=>c.name == item && c.type == 'channel')
+            if(channel) message.channel.send(`Cannot create duplicate channel **${item}**`)
+            if(!channel){
+              message.guild.createChannel(item,'text').then(message.channel.send("Channel created with name **"+item+"**"))
+            }
+          } catch (e) {
+            message.channel.send("Ran into error, logs will be sent to developer")
+          }
+        });
+
+
     }
-    
+
 }
 module.exports.help = {
     name:"cc"
