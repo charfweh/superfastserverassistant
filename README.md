@@ -2,11 +2,11 @@
 #### Ever got bored using your mouse to create channels, roles and categories? ever thought wish you'd just create multiple channels at once because you're wannabefastboi and you just loveee your keyboard :)<br>
 ##### DREAM COMES TRUUU WITH ME
 Create roles, channels, categories superflippingfast with me, are you the one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
-
+<br>Ah yes emojis in argument channel names, roles, categories and voice channels it works bro it works
 #### Commands
 - ``g.dc [argshere]``- Takes in 5 argument which are the channel names and delete them, if there're multiple channels with same name specifying one argument as the channel name will delete all the channels under the same name (hah got ya spammers) ``[argshere] format``: separator ``whitespace``(space, not the actual word whitesace) for eg: ``g.dc this-is-achannel deletethis``
 
-- ``g.cc [argshere]``- Takes in 5 argument which are the channel names and creates them, no duplicate channels are allowed, in-case so, that argument wont be processed.  ``[argshere] format``: separator ``whitespace`` for eg: ``g.dc this-is-achannel deletethis``
+- ``g.cc [argshere]``- Takes in 5 argument which are the channel names and creates them, no duplicate channels are allowed, in-case so, that argument wont be processed.  ``[argshere] format``: separator ``whitespace`` for eg: ``g.dc this-is-achannel deletethis``. Thanks to discord, as special characters are not allowed in channel name,I don't have to parse those yay
 
 - ``g.cr [argshere]``- Takes in 5 argument which are the role names and creates them, no duplicate roles are allowed, in-case so, that argument wont be processed, be sure to split argument with separator ``,``(comma) like for eg: ``g.cr this is a role with whitespace,thisisnot``
 
@@ -37,4 +37,5 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 
 - Delete voice channel<br>
 ![dvc](https://media.discordapp.net/attachments/716902525374038027/717231129496649859/Screenshot_from_2020-06-02_09-50-10.png?width=471&height=202)
+*Hmu on discord @Carefree#4601 im lOnElYy or anything related to this bot*
 #### #KeyboardGangRiseUp
