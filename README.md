@@ -36,6 +36,6 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 ![vc](https://media.discordapp.net/attachments/716902525374038027/717230900001112155/Screenshot_from_2020-06-02_09-49-15.png?width=471&height=180)
 
 - Delete voice channel<br>
-![dvc](https://media.discordapp.net/attachments/716902525374038027/717231129496649859/Screenshot_from_2020-06-02_09-50-10.png?width=471&height=202)
-*Hmu on discord @Carefree#4601 im lOnElYy or anything related to this bot*
+![dvc](https://media.discordapp.net/attachments/716902525374038027/717231129496649859/Screenshot_from_2020-06-02_09-50-10.png?width=471&height=202)<br>
+*Hmu on discord @Carefree#4601 im lOnElYy or if anything related to this bot*
 #### #KeyboardGangRiseUp
