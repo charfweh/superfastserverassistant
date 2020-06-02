@@ -17,6 +17,7 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 
 - ``g.dcat [argshere]``-Takes in 5 argument which are the categories names and delete them, be sure to split argument with separator ``,``(comma) like for eg: ``g.dcat read me, annoucement``
 
+- ``g.cvc [argshere]``-Takes in 5 argument which are the voice channels name and creates them, works in same way as other create modules like ``g.cc`` or ``g.ccat``, be sure to split argument with separator ``,`` for eg: ``g.cvc general, chill zone``
 - ``g.invite``- invite link for bot
 #### Screenshots
 - Delete Channel <br>
@@ -30,4 +31,10 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 
 - Delete Category <br>
 ![delete category](https://media.discordapp.net/attachments/716902525374038027/716906756034265108/Screenshot_from_2020-06-01_12-21-17.png?width=399&height=245)
+
+- Create Voice channels<br>
+![vc](https://media.discordapp.net/attachments/716902525374038027/717230900001112155/Screenshot_from_2020-06-02_09-49-15.png?width=471&height=180)
+
+- Delete voice channel<br>
+![dvc](https://media.discordapp.net/attachments/716902525374038027/717231129496649859/Screenshot_from_2020-06-02_09-50-10.png?width=471&height=202)
 #### #KeyboardGangRiseUp
