@@ -18,7 +18,8 @@ module.exports.run = async (bot,message,args)=>{
               })
             }
           } catch(err){
-            message.channel.send("Ran into an error, please contact developer, error logs will be sent to developer")
+            message.channel.send("Ran into an error")
+            console.error();
           }
         }
     }

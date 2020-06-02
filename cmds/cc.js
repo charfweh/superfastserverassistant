@@ -17,7 +17,8 @@ module.exports.run = async (bot,message,args)=>{
               message.guild.createChannel(item,'text').then(message.channel.send("Channel created with name **"+item+"**"))
             }
           } catch (e) {
-            message.channel.send("Ran into error, logs will be sent to developer")
+            message.channel.send("Ran into error")
+            console.error();
           }
         });
 
