@@ -11,7 +11,7 @@ module.exports.run = async (bot,message,args)=>{
         console.log(uniarr)
         uniarr.forEach((item, i) => {
           try {
-            let channel = message.guild.channels.find(c=>c.name == item && c.type == 'channel')
+            let channel = message.guild.channels.find(c=>c.name == item && c.type == 'text')
             if(channel) message.channel.send(`Cannot create duplicate channel **${item}**`)
             if(!channel){
               message.guild.createChannel(item,'text').then(message.channel.send("Channel created with name **"+item+"**"))

@@ -24,7 +24,7 @@ module.exports.run = async (bot,message,args)=>{
                 message.guild.createRole({
                 name:item,
                 color:"RANDOM"
-              })
+              }).then(message.channel.send(`Role created with name **${item}**`))
             }
           });
         } catch (e) {

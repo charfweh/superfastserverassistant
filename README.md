@@ -20,6 +20,8 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 - ``g.cvc [argshere]``-Takes in 5 argument which are the voice channels name and creates them, works in same way as other create modules like ``g.cc`` or ``g.ccat``, be sure to split argument with separator ``,`` for eg: ``g.cvc general, chill zone``
 - ``g.invite``- invite link for bot
 #### Screenshots
+- Help Command <br>
+![help cmd](https://media.discordapp.net/attachments/716902525374038027/717326739042205728/Screenshot_from_2020-06-02_16-09-50.png?width=640&height=463)
 - Delete Channel <br>
 ![Delete Channel](https://media.discordapp.net/attachments/716902525374038027/716902604327878696/dc.png?width=386&height=138)
 

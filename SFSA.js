@@ -33,7 +33,7 @@ bot.on('message', async message=>{
    let args  = message.content.slice(prefix.length).trim().split(/ +/g);
    let cmds  = args.shift().toLowerCase();
    let cmdrun = bot.commands.get(cmds);
-   if(message.content.startsWith(prefix) && (!bot.commands.has(cmds))) return message.channel.send("No such command exists, try ``g.help`` to get available commands");
+   if(message.content.startsWith(prefix) && (!bot.commands.has(cmds))) return message.channel.send("No such command exists, try ``g.cmd`` to get available commands");
    else if(message.content.startsWith(prefix) && bot.commands.has(cmds)){
         try{
           if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
