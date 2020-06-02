@@ -36,25 +36,29 @@ bot.on('message', async message=>{
    if(message.content.startsWith(prefix) && (!bot.commands.has(cmds))) return message.channel.send("No such command exists, try ``g.help`` to get available commands");
    else if(message.content.startsWith(prefix) && bot.commands.has(cmds)){
         try{
+          if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
+
             if(cmdrun.help.name == 'help'){
                 cmdrun.run(bot,message,args);
             }
-            if(cmdrun.help.name == 'cr' || cmdrun.help.name == 'dr'){
+            else if(cmdrun.help.name == 'cr' || cmdrun.help.name == 'dr' ){
                 let r_args = message.content.slice(prefix.length).trim().split(',')
                 cmdrun.run(bot,message,r_args)
             }
-            if(cmdrun.help.name =='ccat' || cmdrun.help.name == 'dcat'){
+            else if(cmdrun.help.name == 'cvc' || cmdrun.help.name == 'dvc'){
+              let vc_args = message.content.slice(prefix.length).trim().split(',')
+              cmdrun.run(bot,message,vc_args)
+            }
+            else if(cmdrun.help.name =='ccat' || cmdrun.help.name == 'dcat'){
               let c_args = message.content.slice(prefix.length).trim().split(',')
               cmdrun.run(bot,message,c_args)
             }
+            else {cmdrun.run(bot,message,args)
+              }
+            }
             else{
-                if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
-                        cmdrun.run(bot,message,args);
-                    }
-                    else{
-                        message.channel.send("You do not have permission to run this command")
-                    }
-                }
+                message.channel.send("You do not have permission to run this command")
+            }
         }catch(e){
             console.log(e);
             message.channel.send("There was an error running that command");
