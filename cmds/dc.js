@@ -1,10 +1,11 @@
 module.exports.run = async (bot,message,args)=>{
-    if(!args) return message.channel.send("Specify args")
+    // if(!args) return message.channel.send("Specify args")
     if(args){
         if(args.length > 5) return message.channel.send("Channel arguments should be less than 5")
-        args[0] = args[0].replace("dc","")
-        let d_channel = args.map(role=>role.trim())
+        let d_channel = args.map(role=>role.trim()).filter(s=>/\S/.test(s))
+        if(d_channel.length == 0) return message.channel.send("No arguments provided")
         console.log(d_channel)
+        if(d_channel!=0){
         for(i = 0 ; i < d_channel.length; i++){
           try{
             let chnl = message.guild.channels.find(rn => rn.name === d_channel[i] && rn.type == 'text')
@@ -22,6 +23,7 @@ module.exports.run = async (bot,message,args)=>{
             console.log(err)
           }
         }
+      }
     }
 }
 module.exports.help={
