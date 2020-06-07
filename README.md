@@ -1,5 +1,5 @@
 # :small_blue_diamond: SuperFastServerAssitant :small_blue_diamond:
-![Banner](https://cdn.discordapp.com/attachments/716902525374038027/719095263519571988/SFSA.png)
+![Banner](https://media.discordapp.net/attachments/716902525374038027/719137347547037706/1591526048723.png?)
 #### Ever got bored using your mouse to create channels, roles and categories? ever thought wish you'd just create multiple channels at once because you're wannabefastboi and you just loveee your keyboard :)<br>
 ##### DREAM COMES TRUUU WITH ME
 Create roles, channels, categories superflippingfast with me, are you the one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
