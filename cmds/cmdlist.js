@@ -9,7 +9,7 @@ module.exports.run = async (bot,message,args)=>{
       description: "List of available commands that you can use, got an error or want to report? check github link below",
       fields: [{
           name: ":small_red_triangle: **cc/dc [args here]**",
-          value: "Create Channel and Delete channel module \n ``[argshere]`` Space separated channels name\n ``[argshere]`` limit: 5\n eg: `g.cc/dc here-we-go off-topic support-me`"
+          value: "Create Channel and Delete channel module \n ``[argshere]`` Space separated channels mentions(for dc), and space separated channels name(for cc)\n ``[argshere]`` limit: 5\n eg: `g.dc #here-we-go #off-topic #support-me`"
         },
         {
             name: ":small_red_triangle: **cvc/dvc [args here]**",
