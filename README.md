@@ -1,24 +1,24 @@
-# SuperFastServerAssitant
+# :small_blue_diamond: SuperFastServerAssitant :small_blue_diamond:
 #### Ever got bored using your mouse to create channels, roles and categories? ever thought wish you'd just create multiple channels at once because you're wannabefastboi and you just loveee your keyboard :)<br>
 ##### DREAM COMES TRUUU WITH ME
 Create roles, channels, categories superflippingfast with me, are you the one using that sloppy mouse? dont worry type in and it'll be yeeted far across the universe
 <br>Ah yes emojis in argument channel names, roles, categories and voice channels it works bro it works
 #### Commands
-- ``g.dc [argshere]``- Takes in 5 argument which are the channel mentions and delete them. ``[argshere] format``: separator ``whitespace``(space, not the actual word whitesace) for eg: ``g.dc #this-is-achannel #deletethis``
+- :arrow_right:``g.dc [argshere]``- Takes in 5 argument which are the channel mentions and delete them. ``[argshere] format``: separator ``whitespace``(space, not the actual word whitesace) for eg: ``g.dc #this-is-achannel #deletethis``
 
-- ``g.cc [argshere]``- Takes in 5 argument which are the channel names and creates them, no duplicate channels are allowed, in-case so, that argument wont be processed.  ``[argshere] format``: separator ``whitespace`` for eg: ``g.dc this-is-achannel deletethis``. Thanks to discord, as special characters are not allowed in channel name,I don't have to parse those yay
+- :arrow_right:``g.cc [argshere]``- Takes in 5 argument which are the channel names and creates them, no duplicate channels are allowed, in-case so, that argument wont be processed.  ``[argshere] format``: separator ``whitespace`` for eg: ``g.dc this-is-achannel deletethis``. Thanks to discord, as special characters are not allowed in channel name,I don't have to parse those yay
 
-- ``g.cr [argshere]``- Takes in 5 argument which are the role names and creates them, no duplicate roles are allowed, in-case so, that argument wont be processed, be sure to split argument with separator ``,``(comma) like for eg: ``g.cr this is a role with whitespace,thisisnot``
+- :arrow_right:``g.cr [argshere]``- Takes in 5 argument which are the role names and creates them, no duplicate roles are allowed, in-case so, that argument wont be processed, be sure to split argument with separator ``,``(comma) like for eg: ``g.cr this is a role with whitespace,thisisnot``
 
-- ``g.dr [argshere]``- Takes in 5 argument which are the roles name and deletes them,  like for eg: ``g.dr this is a role with whitespace,thisisnot``
+- :arrow_right:``g.dr [argshere]``- Takes in 5 argument which are the roles name and deletes them,  like for eg: ``g.dr this is a role with whitespace,thisisnot``
 
-- ``g.ccat [argshere]``-Takes in 5 argument which are the categories names and creates them, no duplicate categories
+- :arrow_right:``g.ccat [argshere]``-Takes in 5 argument which are the categories names and creates them, no duplicate categories
 are allowed, in-case so, that argument wont be processed, be sure to split argument with separator ``,``(comma) like for eg: ``g.ccat read me, annoucement``
 
-- ``g.dcat [argshere]``-Takes in 5 argument which are the categories names and delete them, be sure to split argument with separator ``,``(comma) like for eg: ``g.dcat read me, annoucement``
+- :arrow_right:``g.dcat [argshere]``-Takes in 5 argument which are the categories names and delete them, be sure to split argument with separator ``,``(comma) like for eg: ``g.dcat read me, annoucement``
 
-- ``g.cvc [argshere]``-Takes in 5 argument which are the voice channels name and creates them, works in same way as other create modules like ``g.cc`` or ``g.ccat``, be sure to split argument with separator ``,`` for eg: ``g.cvc general, chill zone``
-- ``g.invite``- invite link for bot
+- :arrow_right::arrow_right::``g.cvc [argshere]``-Takes in 5 argument which are the voice channels name and creates them, works in same way as other create modules like ``g.cc`` or ``g.ccat``, be sure to split argument with separator ``,`` for eg: ``g.cvc general, chill zone``
+- :arrow_right:``g.invite``- invite link for bot
 #### Screenshots
 - Help Command <br>
 ![help cmd](https://media.discordapp.net/attachments/716902525374038027/717326739042205728/Screenshot_from_2020-06-02_16-09-50.png?width=640&height=463)
