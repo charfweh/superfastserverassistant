@@ -38,10 +38,7 @@ bot.on('message', async message=>{
         try{
           if(message.guild.member(message.author).hasPermission('ADMINISTRATOR')){
 
-            if(cmdrun.help.name == 'help'){
-                cmdrun.run(bot,message,args);
-            }
-            else if(cmdrun.help.name == 'cr' || cmdrun.help.name == 'dr' ){
+            if(cmdrun.help.name == 'cr' || cmdrun.help.name == 'dr' ){
                 let r_args = message.content.slice(prefix.length).trim().split(',')
                 cmdrun.run(bot,message,r_args)
             }
