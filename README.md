@@ -22,7 +22,7 @@ are allowed, in-case so, that argument wont be processed, be sure to split argum
 - :arrow_right: ``g.invite``- invite link for bot
 #### Screenshots
 - Help Command <br>
-![help cmd](https://media.discordapp.net/attachments/716902525374038027/717326739042205728/Screenshot_from_2020-06-02_16-09-50.png?width=640&height=463)
+![help cmd](https://media.discordapp.net/attachments/716902525374038027/719180218002047007/Screenshot_from_2020-06-07_18-55-04.png?width=602&height=463)
 - Delete Channel <br>
 ![Delete Channel](https://media.discordapp.net/attachments/716902525374038027/719069242401751050/Screenshot_from_2020-06-07_11-34-04.png?width=468&height=182)
 
